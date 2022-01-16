@@ -3,8 +3,8 @@
 #include <ESP8266HTTPClient.h>
 String apiKey_tilt = "2UPXPOR1RNP8RCZO";
 const char apikey_2_tilt[] = "M2X2I7LIXNTXWX8S";
-const char *ssid =  "Sonu_iphone";
-const char *pass =  "sonu311?";
+const char *ssid =  "Sonu_iphone";# WiFi NAME
+const char *pass =  "sonu311?";# WiFi PASSWORD
 const char* server = "api.thingspeak.com";
 WiFiClient client;
 boolean checkPoint_tilt = true;
